@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{min-height: 2000px;}
+div.paralax{
+  width: 100%;
+  height: 460px;
+  background-color: lightcoral;
+  background-image: linear-gradient(15deg,rgba(255, 0, 0, 0.062),rgba(0, 0, 255, 0.342)),url("../images/product-3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+}
+div.para{
+  width: 100%;
+  height: 460px;
+  background-color: rgb(80, 62, 62);
+  background-image: url("../images/product-2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+div.gradiant{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to bottom, green ,white, white,red);
+}
